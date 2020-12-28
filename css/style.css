@@ -43,19 +43,20 @@ input {
     width: 500px;
     padding: 10px;
     outline: none;
-    border: 2px solid black;
-    border-radius: 5px;
+    border: 2px solid #ccc;
+    border-radius: 7px;
+    transition: all .2s ease-in-out;
 }
 
 input:focus {
-    border: 2px solid rgb(4, 122, 168);
-    box-shadow: 0 0 3pt 3pt  rgb(143, 222, 253);
+    border: 2px solid rgb(45, 196, 255);
+    box-shadow: 0 0 5pt 2pt  rgb(143, 222, 253);
 }
 
 
 
 .btn-container {
-   margin-top: 40px;
+   margin-top: 15px;
    width: 100%;
    display: flex;
    /* background-color: red; */
@@ -63,18 +64,19 @@ input:focus {
 }
 
 .btn {
-   margin: 10px;
    border: none;
    cursor: pointer;
-   padding: 10px 15px;
+   padding: 15px 20px;
    border-radius: 5px;
    outline: none;
    transition: all .3s ease-out;
+   letter-spacing: 2px;
 }
 
 .btn-first {
     text-decoration: underline;
     background-color: #fff;
+    margin-right: 10px;
 }
 
 .btn-first:hover {
